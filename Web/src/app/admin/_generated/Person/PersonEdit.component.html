@@ -1,0 +1,28 @@
+﻿
+					<div class="row">
+						
+						<div class="form-group col-md-12">
+							<label class="control-label">{{'PERSON.FORM.LABEL.NOME' | translate }}</label>
+							<input type="text" class="form-control" [(ngModel)]="person.nome" name="person.nome" autofocus />
+						</div>
+						
+						<div class="form-group col-md-12">
+							<label class="control-label">{{'PERSON.FORM.LABEL.CPF' | translate }}</label>
+							<input type="text" class="form-control" [(ngModel)]="person.cPF" name="person.cPF" autofocus />
+						</div>
+						
+						<div class="form-group col-md-12">
+							<label class="control-label">{{'PERSON.FORM.LABEL.EMAIL' | translate }}</label>
+							<input type="email" class="form-control" [(ngModel)]="person.email" name="person.email" autofocus />
+						</div>
+						
+						<div class="form-group col-md-12">
+							<label class="control-label">{{'PERSON.FORM.LABEL.TELEFONE' | translate }}</label>
+							<input type="text" class="form-control" [(ngModel)]="person.telefone" name="person.telefone" autofocus />
+						</div>
+						
+						<div class="form-group col-md-3">
+							<label class="control-label">{{'PERSON.FORM.LABEL.DATA_NASCIMENTO' | translate }}</label>
+							<input type="date" class="form-control" [ngModel]="person.dataNascimento | date:'yyyy-MM-dd'" (onModelChange)="person.dataNascimento = $event" name="person.dataNascimento" autofocus />
+						</div>
+					</div>

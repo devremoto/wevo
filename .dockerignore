@@ -1,0 +1,14 @@
+.dockerignore
+.env
+.git
+.gitignore
+.vs
+.vscode
+*/bin
+*/obj
+**/.toolstarget
+env.bat
+env.sh
+packages
+**/*.db
+*.db

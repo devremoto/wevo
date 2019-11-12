@@ -1,0 +1,167 @@
+﻿{
+	"CONTACT":{
+		"TITLE" : "KONTAKT",
+		"MENU" : "Kontakt",
+		"GRID" : {
+			"COLUMN" : {		
+				"ID":"ID",
+				"NAME":"NAMEN",
+				"PHONE_NUMBER":"TELEFONNUMMER",
+				"EMAIL":"E-MAIL",
+				"SUBJECT":"BETREFF",
+				"MESSAGE":"NACHRICHT",
+				"ACTIONS":"Aktionen"
+			},
+			"BUTTON": {
+				"EDIT":"Bearbeiten",
+				"REMOVE":"Löschen",
+				"DUPLICATE":"Doppelte",
+				"NEW": "Hinzufügen KONTAKT"
+			},
+			"CONFIRM_DELETE":"Möchten Sie dieses Element wirklich entfernen?",
+			"REMOVE": {
+				"SUCCESS":"Kontakt Entfernt",
+				"ERROR":"Fehler beim Entfernen"
+			},
+			"DUPLICATE": {
+				"SUCCESS":"Dupliziert",
+				"ERROR":"Fehler beim Duplizieren"
+			}
+		},
+		"FORM" : {
+			"LABEL" : {	
+				"NAME":"NAMEN",
+				"PHONE_NUMBER":"TELEFONNUMMER",
+				"EMAIL":"E-MAIL",
+				"SUBJECT":"BETREFF",
+				"MESSAGE":"NACHRICHT",
+				"ID":"ID"
+			},
+			"BUTTON": {
+				"SAVE":"Speichern",
+				"CANCEL":"Abbrechen"
+			},
+			"SAVE": {
+				"SUCCESS":"Kontakt : erfolgreich gespeichert",
+				"ERROR":"Fehler beim Speichern"
+			}
+		}
+	},
+	"LANGUAGE":{
+		"TITLE" : "SPRACHE",
+		"MENU" : "Sprache",
+		"GRID" : {
+			"COLUMN" : {		
+				"ID":"ID",
+				"CODE":"CODE",
+				"NAME":"NAMEN",
+				"IMAGE":"BILD",
+				"ACTIVE":"AKTIV",
+				"DEFAULT":"STANDARD",
+				"LOADED":"GELADEN",
+				"ACTIONS":"Aktionen"
+			},
+			"BUTTON": {
+				"EDIT":"Bearbeiten",
+				"REMOVE":"Löschen",
+				"DUPLICATE":"Doppelte",
+				"NEW": "Hinzufügen SPRACHE"
+			},
+			"CONFIRM_DELETE":"Möchten Sie dieses Element wirklich entfernen?",
+			"REMOVE": {
+				"SUCCESS":"Sprache Entfernt",
+				"ERROR":"Fehler beim Entfernen"
+			},
+			"DUPLICATE": {
+				"SUCCESS":"Dupliziert",
+				"ERROR":"Fehler beim Duplizieren"
+			}
+		},
+		"FORM" : {
+			"LABEL" : {	
+				"CODE":"CODE",
+				"NAME":"NAMEN",
+				"IMAGE":"BILD",
+				"ACTIVE":"AKTIV",
+				"DEFAULT":"STANDARD",
+				"LOADED":"GELADEN",
+				"ID":"ID"
+			},
+			"BUTTON": {
+				"SAVE":"Speichern",
+				"CANCEL":"Abbrechen"
+			},
+			"SAVE": {
+				"SUCCESS":"Sprache : erfolgreich gespeichert",
+				"ERROR":"Fehler beim Speichern"
+			}
+		}
+	},
+	"PERSON":{
+		"TITLE" : "PERSON",
+		"MENU" : "Person",
+		"GRID" : {
+			"COLUMN" : {		
+				"ID":"ID",
+				"NOME":"NOME",
+				"CPF":"CPF",
+				"EMAIL":"E-MAIL",
+				"TELEFONE":"TELEFONE",
+				"DATA_NASCIMENTO":"DATEN NASCIMENTO",
+				"ACTIONS":"Aktionen"
+			},
+			"BUTTON": {
+				"EDIT":"Bearbeiten",
+				"REMOVE":"Löschen",
+				"DUPLICATE":"Doppelte",
+				"NEW": "Hinzufügen PERSON"
+			},
+			"CONFIRM_DELETE":"Möchten Sie dieses Element wirklich entfernen?",
+			"REMOVE": {
+				"SUCCESS":"Person Entfernt",
+				"ERROR":"Fehler beim Entfernen"
+			},
+			"DUPLICATE": {
+				"SUCCESS":"Dupliziert",
+				"ERROR":"Fehler beim Duplizieren"
+			}
+		},
+		"FORM" : {
+			"LABEL" : {	
+				"NOME":"NOME",
+				"CPF":"CPF",
+				"EMAIL":"E-MAIL",
+				"TELEFONE":"TELEFONE",
+				"DATA_NASCIMENTO":"DATEN NASCIMENTO",
+				"ID":"ID"
+			},
+			"BUTTON": {
+				"SAVE":"Speichern",
+				"CANCEL":"Abbrechen"
+			},
+			"SAVE": {
+				"SUCCESS":"Person : erfolgreich gespeichert",
+				"ERROR":"Fehler beim Speichern"
+			}
+		}
+	},
+  "APP":{
+	"NAME":"",
+	"DIALOG":{
+		"CONFIRM":{
+			"TITLE":"Bestätigung"
+		},		
+		"OK":"Okay",
+		"CANCEL":"Abbrechen"
+	},
+	"TOASTER":{
+		"TITLE":{
+			"SUCCESS":"Erfolg",
+			"ERROR":"Fehler"
+		}
+	},
+	"UPLOAD":{
+		"BUTTON":"Auswählen einer Datei"
+	}
+  }
+}

@@ -1,0 +1,167 @@
+﻿{
+	"CONTACT":{
+		"TITLE" : "CONTACTO",
+		"MENU" : "Contacto",
+		"GRID" : {
+			"COLUMN" : {		
+				"ID":"ID",
+				"NAME":"NOMBRE",
+				"PHONE_NUMBER":"NÚMERO DE TELÉFONO",
+				"EMAIL":"CORREO ELECTRÓNICO",
+				"SUBJECT":"ASUNTO",
+				"MESSAGE":"MENSAJE",
+				"ACTIONS":"Acciones"
+			},
+			"BUTTON": {
+				"EDIT":"Editar",
+				"REMOVE":"Eliminar",
+				"DUPLICATE":"Duplicado",
+				"NEW": "Añadir CONTACTO"
+			},
+			"CONFIRM_DELETE":"¿Realmente quieres eliminar este artículo?",
+			"REMOVE": {
+				"SUCCESS":"Contacto Quitado",
+				"ERROR":"Error al quitar"
+			},
+			"DUPLICATE": {
+				"SUCCESS":"Duplicado",
+				"ERROR":"Error al duplicar"
+			}
+		},
+		"FORM" : {
+			"LABEL" : {	
+				"NAME":"NOMBRE",
+				"PHONE_NUMBER":"NÚMERO DE TELÉFONO",
+				"EMAIL":"CORREO ELECTRÓNICO",
+				"SUBJECT":"ASUNTO",
+				"MESSAGE":"MENSAJE",
+				"ID":"ID"
+			},
+			"BUTTON": {
+				"SAVE":"Salvar",
+				"CANCEL":"Cancelar"
+			},
+			"SAVE": {
+				"SUCCESS":"Contacto : guardado con éxito",
+				"ERROR":"Error al guardar"
+			}
+		}
+	},
+	"LANGUAGE":{
+		"TITLE" : "LENGUA",
+		"MENU" : "Lengua",
+		"GRID" : {
+			"COLUMN" : {		
+				"ID":"ID",
+				"CODE":"CÓDIGO",
+				"NAME":"NOMBRE",
+				"IMAGE":"IMAGEN",
+				"ACTIVE":"ACTIVO",
+				"DEFAULT":"PREDETERMINADO",
+				"LOADED":"CARGADO",
+				"ACTIONS":"Acciones"
+			},
+			"BUTTON": {
+				"EDIT":"Editar",
+				"REMOVE":"Eliminar",
+				"DUPLICATE":"Duplicado",
+				"NEW": "Añadir LENGUA"
+			},
+			"CONFIRM_DELETE":"¿Realmente quieres eliminar este artículo?",
+			"REMOVE": {
+				"SUCCESS":"Lengua Quitado",
+				"ERROR":"Error al quitar"
+			},
+			"DUPLICATE": {
+				"SUCCESS":"Duplicado",
+				"ERROR":"Error al duplicar"
+			}
+		},
+		"FORM" : {
+			"LABEL" : {	
+				"CODE":"CÓDIGO",
+				"NAME":"NOMBRE",
+				"IMAGE":"IMAGEN",
+				"ACTIVE":"ACTIVO",
+				"DEFAULT":"PREDETERMINADO",
+				"LOADED":"CARGADO",
+				"ID":"ID"
+			},
+			"BUTTON": {
+				"SAVE":"Salvar",
+				"CANCEL":"Cancelar"
+			},
+			"SAVE": {
+				"SUCCESS":"Lengua : guardado con éxito",
+				"ERROR":"Error al guardar"
+			}
+		}
+	},
+	"PERSON":{
+		"TITLE" : "PERSONA",
+		"MENU" : "Persona",
+		"GRID" : {
+			"COLUMN" : {		
+				"ID":"ID",
+				"NOME":"NOME",
+				"CPF":"CPF",
+				"EMAIL":"CORREO ELECTRÓNICO",
+				"TELEFONE":"TELEFONE",
+				"DATA_NASCIMENTO":"DATOS NASCIMENTO",
+				"ACTIONS":"Acciones"
+			},
+			"BUTTON": {
+				"EDIT":"Editar",
+				"REMOVE":"Eliminar",
+				"DUPLICATE":"Duplicado",
+				"NEW": "Añadir PERSONA"
+			},
+			"CONFIRM_DELETE":"¿Realmente quieres eliminar este artículo?",
+			"REMOVE": {
+				"SUCCESS":"Persona Quitado",
+				"ERROR":"Error al quitar"
+			},
+			"DUPLICATE": {
+				"SUCCESS":"Duplicado",
+				"ERROR":"Error al duplicar"
+			}
+		},
+		"FORM" : {
+			"LABEL" : {	
+				"NOME":"NOME",
+				"CPF":"CPF",
+				"EMAIL":"CORREO ELECTRÓNICO",
+				"TELEFONE":"TELEFONE",
+				"DATA_NASCIMENTO":"DATOS NASCIMENTO",
+				"ID":"ID"
+			},
+			"BUTTON": {
+				"SAVE":"Salvar",
+				"CANCEL":"Cancelar"
+			},
+			"SAVE": {
+				"SUCCESS":"Persona : guardado con éxito",
+				"ERROR":"Error al guardar"
+			}
+		}
+	},
+  "APP":{
+	"NAME":"",
+	"DIALOG":{
+		"CONFIRM":{
+			"TITLE":"Confirmación"
+		},		
+		"OK":"Vale",
+		"CANCEL":"Cancelar"
+	},
+	"TOASTER":{
+		"TITLE":{
+			"SUCCESS":"Éxito",
+			"ERROR":"Error"
+		}
+	},
+	"UPLOAD":{
+		"BUTTON":"Seleccione un archivo"
+	}
+  }
+}
